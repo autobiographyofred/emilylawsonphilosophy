@@ -1,0 +1,599 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Emily Lawson | Philosophy PhD Candidate, UBC</title>
+<meta name="description" content="Emily Lawson is a Vanier Scholar and philosophy PhD candidate at UBC working on emotion, imagination, aesthetics, and rasa theory. CV, papers, talks, poetry.">
+<link rel="canonical" href="https://www.emilylawsonphilosophy.com/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Emily Lawson">
+<meta property="og:title" content="Emily Lawson | Philosophy PhD Candidate, UBC">
+<meta property="og:description" content="Emily Lawson is a Vanier Scholar and philosophy PhD candidate at UBC working on emotion, imagination, aesthetics, and rasa theory. CV, papers, talks, poetry.">
+<meta property="og:url" content="https://www.emilylawsonphilosophy.com/">
+<meta property="og:image" content="https://www.emilylawsonphilosophy.com/headshot.jpg">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#5c6e60">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%235c6e60'/%3E%3Ctext x='32' y='45' text-anchor='middle' font-family='Georgia,serif' font-size='38' fill='%23f3f0e8'%3EEL%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Emily Lawson",
+  "url": "https://www.emilylawsonphilosophy.com/",
+  "image": "https://www.emilylawsonphilosophy.com/headshot.jpg",
+  "jobTitle": "PhD Candidate in Philosophy",
+  "email": "mailto:emily.lawson@ubc.ca",
+  "affiliation": {
+    "@type": "CollegeOrUniversity",
+    "name": "University of British Columbia"
+  },
+  "alumniOf": [
+    {
+      "@type": "CollegeOrUniversity",
+      "name": "University of Virginia"
+    },
+    {
+      "@type": "CollegeOrUniversity",
+      "name": "Hampshire College"
+    }
+  ],
+  "knowsAbout": [
+    "Aesthetics",
+    "South Asian philosophy",
+    "Philosophy of mind",
+    "Rasa theory",
+    "Philosophy of emotion",
+    "Imagination",
+    "Daydreaming",
+    "Philosophy of death and dying",
+    "Poetry"
+  ],
+  "sameAs": [
+    "https://ubc.academia.edu/EmilyLawson",
+    "https://www.grad.ubc.ca/campus-community/meet-our-students/lawson-emily"
+  ]
+}
+</script>
+<style>
+/* Layout: fixed sage sidebar (photo, name, section links, contact) beside one long reading column of papers, talks, teaching and poems. */
+:root {
+  --paper: #eeebe3;      /* warm off-white page */
+  --ink: #2b2a25;        /* text */
+  --muted: #69685d;      /* venues, captions */
+  --rule: #d6d1bb;       /* khaki hairlines */
+  --side: #5c6e60;       /* muted sage sidebar */
+  --side-ink: #f3f0e8;
+  --side-muted: #e4e9e0;
+  --accent: #8a5757;     /* dusty rose, deepened for links */
+  --slate: #4e6c78;      /* dusty blue for years and labels */
+  --wash: #e3dfd1;       /* soft fill for the facts panel */
+
+  --display: "Cardo", "Iowan Old Style", Georgia, serif;
+  --body: "EB Garamond", Garamond, "Iowan Old Style", Georgia, serif;
+
+  --side-w: 17.5rem;
+  --measure: 44rem;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #1d211e; --ink: #e7e3d9; --muted: #a9a79a; --rule: #3a413a;
+    --side: #34423a; --side-ink: #eeebe3; --side-muted: #c3cdc0;
+    --accent: #dcaaa6; --slate: #9fbac4; --wash: #262c27;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #1d211e; --ink: #e7e3d9; --muted: #a9a79a; --rule: #3a413a;
+  --side: #34423a; --side-ink: #eeebe3; --side-muted: #c3cdc0;
+  --accent: #dcaaa6; --slate: #9fbac4; --wash: #262c27;
+  color-scheme: dark;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+img { max-width: 100%; }
+html { scroll-padding-top: 1.5rem; }
+@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--body);
+  font-size: 1.16rem;
+  line-height: 1.55;
+  font-variant-numeric: lining-nums;
+  -webkit-font-smoothing: antialiased;
+}
+a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 0.18em; }
+a:hover { text-decoration-thickness: 2px; }
+a:focus-visible, summary:focus-visible { outline: 2px solid var(--slate); outline-offset: 3px; border-radius: 2px; }
+em, cite { font-style: italic; }
+cite { font-style: italic; }
+
+.shell { display: grid; grid-template-columns: var(--side-w) minmax(0, 1fr); min-height: 100%; }
+
+/* ---------- Sidebar ---------- */
+.side {
+  background: var(--side);
+  color: var(--side-ink);
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  height: 100dvh;
+  overflow-y: auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+.side-inner {
+  display: flex; flex-direction: column; gap: 2rem;
+  min-height: 100%;
+  padding: 2.25rem 0.75rem 1.75rem;
+}
+.portrait {
+  width: 100%; max-width: 13rem; aspect-ratio: 6 / 7; object-fit: cover;
+  border-radius: 3px; display: block;
+  filter: saturate(0.92);
+}
+.ident h1 {
+  font-family: var(--display); font-weight: 400;
+  font-size: 2.15rem; line-height: 1.05; margin: 0 0 0.55rem;
+  letter-spacing: 0.005em;
+}
+.ident p { margin: 0; font-size: 1rem; line-height: 1.45; color: var(--side-muted); }
+.nav { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.15rem; }
+.nav a {
+  display: flex; align-items: center; gap: 0.6rem;
+  color: var(--side-ink); text-decoration: none;
+  font-size: 1.08rem; padding: 0.2rem 0;
+}
+.nav a::before {
+  content: ""; width: 0.95rem; height: 1px; background: currentColor; opacity: 0.35;
+  transition: width 0.2s ease, opacity 0.2s ease;
+}
+.nav a:hover::before, .nav a[aria-current="true"]::before { width: 1.6rem; opacity: 1; }
+.nav a[aria-current="true"] { font-weight: 600; }
+.side-foot { margin-top: auto; display: grid; gap: 0.55rem; font-size: 0.98rem; color: var(--side-muted); }
+.side-foot .mail { color: var(--side-ink); font-style: italic; font-family: var(--display); font-size: 0.98rem; word-break: break-all; }
+.side-foot .links { display: flex; flex-wrap: wrap; gap: 0.3rem 0.9rem; }
+.side-foot a { color: var(--side-ink); text-decoration-color: color-mix(in srgb, var(--side-ink) 45%, transparent); }
+
+/* ---------- Main column ---------- */
+.main {
+  min-width: 0;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+.main-inner { max-width: var(--measure); padding-block: 3rem 4rem; margin-left: clamp(0rem, 4vw, 3.5rem); display: grid; gap: 4.25rem; }
+section { display: grid; gap: 1.4rem; }
+h2 {
+  font-family: var(--display); font-weight: 400;
+  font-size: clamp(2rem, 1.6rem + 1.4vw, 2.6rem); line-height: 1.1;
+  margin: 0; text-wrap: balance;
+}
+h3 {
+  font-family: var(--body); font-weight: 600; font-size: 0.82rem;
+  text-transform: uppercase; letter-spacing: 0.14em; color: var(--slate);
+  margin: 1.2rem 0 0.1rem;
+}
+.block { display: grid; gap: 0.4rem; }
+p { margin: 0; }
+.prose { display: grid; gap: 0.95rem; max-width: 40rem; }
+
+.facts {
+  background: var(--wash); border-radius: 4px;
+  padding: 1.15rem 1.3rem; display: grid; gap: 0.65rem;
+  grid-template-columns: 7.2rem minmax(0, 1fr); column-gap: 1.1rem;
+  font-size: 1.08rem;
+}
+.facts dt { font-weight: 600; font-size: 0.78rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--slate); padding-top: 0.22rem; }
+.facts dd { margin: 0; }
+.facts .title { font-family: var(--display); font-style: italic; font-size: 1.15rem; }
+
+/* entry lists: papers, chapters, reviews */
+.entries { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--rule); }
+.entry {
+  display: grid; grid-template-columns: minmax(0, 1fr) auto; column-gap: 1.5rem;
+  padding: 0.85rem 0; border-bottom: 1px solid var(--rule);
+}
+.entry .t { font-family: var(--display); font-size: 1.16rem; line-height: 1.35; }
+.entry .t a { color: var(--ink); text-decoration-color: var(--rule); }
+.entry .t a:hover { color: var(--accent); text-decoration-color: currentColor; }
+.entry .co { color: var(--muted); font-size: 1.02rem; }
+.entry .v { color: var(--muted); font-size: 1.02rem; }
+.entry .v cite { color: var(--ink); opacity: 0.85; }
+.entry .yr {
+  font-variant-numeric: lining-nums tabular-nums; color: var(--slate); font-size: 1rem;
+  white-space: nowrap; text-align: right; padding-top: 0.2rem;
+}
+.entry details { grid-column: 1 / -1; margin-top: 0.35rem; }
+.entry summary {
+  cursor: pointer; width: fit-content; list-style: none;
+  font-size: 0.84rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--slate);
+}
+.entry summary::-webkit-details-marker { display: none; }
+.entry summary::before { content: "+ "; }
+.entry details[open] summary::before { content: "– "; }
+.entry details p { margin-top: 0.55rem; font-size: 1.06rem; color: var(--ink); max-width: 40rem; }
+
+/* talks */
+.talks { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.95rem; }
+.talk { display: grid; grid-template-columns: 9.5rem minmax(0, 1fr); column-gap: 1.25rem; }
+.talk .when { font-variant-numeric: lining-nums tabular-nums; color: var(--slate); font-size: 1rem; padding-top: 0.05rem; }
+.talk .what { font-family: var(--display); font-size: 1.1rem; line-height: 1.35; }
+.talk .where { color: var(--muted); font-size: 1.02rem; }
+.tag { font-family: var(--body); font-size: 0.78rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent); margin-left: 0.35rem; white-space: nowrap; }
+
+/* teaching & awards & poems */
+.plain { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.45rem; }
+.plain li { display: grid; grid-template-columns: minmax(0, 1fr) auto; column-gap: 1.25rem; }
+.plain .yr { font-variant-numeric: lining-nums tabular-nums; color: var(--slate); font-size: 1rem; white-space: nowrap; }
+.plain .note { color: var(--muted); font-size: 1rem; }
+.role { font-size: 1.02rem; color: var(--muted); font-style: italic; margin: 0.35rem 0 0.15rem; }
+.poems { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.5rem; }
+.poems li { padding-left: 0; }
+.poems .venue { font-style: italic; }
+.poems .note { color: var(--muted); font-size: 1rem; }
+
+.cv-card {
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.5rem 1.25rem;
+  border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); padding: 1rem 0;
+}
+.cv-card a { font-family: var(--display); font-size: 1.3rem; }
+.cv-card span { color: var(--muted); font-size: 1rem; }
+.contact { display: grid; gap: 0.2rem; color: var(--muted); }
+.contact .mail { color: var(--ink); }
+footer { color: var(--muted); font-size: 0.98rem; border-top: 1px solid var(--rule); padding-top: 1.25rem; }
+
+/* ---------- Narrow screens: sidebar becomes a header band ---------- */
+@media (max-width: 860px) {
+  .shell { grid-template-columns: minmax(0, 1fr); }
+  .side { position: static; height: auto; overflow: visible; }
+  .side-inner { padding: 1.5rem 0 1.25rem; gap: 1.1rem; display: grid; grid-template-columns: 5.5rem minmax(0, 1fr); align-items: center; column-gap: 1rem; }
+  .portrait { max-width: 5.5rem; }
+  .ident h1 { font-size: 1.75rem; }
+  .side-inner > nav { grid-column: 1 / -1; }
+  .nav { display: flex; flex-wrap: wrap; gap: 0.2rem 1.1rem; }
+  .nav a { white-space: nowrap; }
+  .nav a::before { display: none; }
+  .nav a[aria-current="true"] { text-decoration: underline; text-underline-offset: 0.3em; }
+  .side-foot { grid-column: 1 / -1; margin-top: 0; }
+  .main-inner { margin-left: 0; padding-block: 2.25rem 3rem; gap: 3.25rem; }
+}
+@media (max-width: 520px) {
+  .facts { grid-template-columns: minmax(0, 1fr); row-gap: 0.15rem; }
+  .facts dd { margin-bottom: 0.6rem; }
+  .talk { grid-template-columns: minmax(0, 1fr); }
+  .entry { grid-template-columns: minmax(0, 1fr); }
+  .entry .yr { text-align: left; padding-top: 0.15rem; }
+}
+</style>
+</head>
+<body>
+<div class="shell">
+  <aside class="side">
+    <div class="side-inner">
+      <img class="portrait" src="headshot.jpg" width="300" height="350" alt="Portrait of Emily Lawson on a forest path">
+      <div class="ident">
+        <h1>Emily Lawson</h1>
+        <p>PhD Candidate in Philosophy<br>University of British Columbia</p>
+      </div>
+      <nav aria-label="Sections">
+        <ul class="nav">
+          <li><a href="#about">About</a></li>
+          <li><a href="#research">Research</a></li>
+          <li><a href="#talks">Talks</a></li>
+          <li><a href="#teaching">Teaching</a></li>
+          <li><a href="#poetry">Poetry &amp; Prose</a></li>
+          <li><a href="#cv">CV &amp; Contact</a></li>
+        </ul>
+      </nav>
+      <div class="side-foot">
+        <a class="mail" href="mailto:emily.lawson@ubc.ca">emily.lawson@ubc.ca</a>
+        <div class="links">
+          <a href="Emily_Lawson_CV.pdf" target="_blank" rel="noopener">CV</a>
+          <a href="https://ubc.academia.edu/EmilyLawson" target="_blank" rel="noopener">Academia.edu</a>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <main class="main">
+    <div class="main-inner">
+
+      <section id="about" aria-labelledby="about-h">
+        <h2 id="about-h">About</h2>
+        <div class="prose">
+          <p>I'm a Vanier Scholar and PhD candidate in philosophy at the University of British Columbia. I work on the philosophy of emotion and imagination, at the intersection of philosophy of mind, aesthetics, and South Asian philosophy. My doctoral research focuses on <em>rasa</em> (aesthetic emotion) theory in Classical Sanskrit and modern South Asian aesthetics, and on the experience of death and dying. I also work on the philosophical psychology of daydreaming and other imaginative experiences.</p>
+          <p>I am writing a book on death and imagination for Columbia University Press. Beyond philosophy, I am a publishing poet and hold an MFA in poetry from the University of Virginia, where, as a Poe/Faulkner Fellow, I taught poetry courses and served as Editor-in-Chief of the literary magazine <em>Meridian</em>.</p>
+        </div>
+        <dl class="facts">
+          <dt>Dissertation</dt>
+          <dd><span class="title">Life’s Painful Beauty: Rasa and Deathbed Aesthetics</span></dd>
+          <dt>Committee</dt>
+          <dd>Evan Thompson (supervisor), Catherine Prueitt (co-supervisor), Dominic McIver Lopes</dd>
+          <dt>AOS</dt>
+          <dd>Philosophy of Mind · Aesthetics · Indian Philosophy</dd>
+          <dt>AOC</dt>
+          <dd>Buddhist Philosophy · Value Theory</dd>
+          <dt>Languages</dt>
+          <dd>Classical Sanskrit (advanced reading and translation)</dd>
+        </dl>
+      </section>
+
+      <section id="research" aria-labelledby="research-h">
+        <h2 id="research-h">Research</h2>
+
+        <div class="block">
+          <h3>Book</h3>
+          <ul class="entries">
+            <li class="entry">
+              <div>
+                <div class="t"><cite>Death: A Guide for Imaginers</cite></div>
+                <div class="v">Columbia University Press, No Limits series, ed. Costică Brădățan</div>
+              </div>
+              <div class="yr">under contract</div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="block">
+          <h3>Articles</h3>
+          <ul class="entries">
+            <li class="entry">
+              <div>
+                <div class="t"><a href="https://doi.org/10.1093/aesthj/ayag032" target="_blank" rel="noopener">Deathbed Aesthetics: Ugliness and Courageous Love</a></div>
+                <div class="v"><cite>British Journal of Aesthetics</cite></div>
+              </div>
+              <div class="yr">forthcoming</div>
+            </li>
+            <li class="entry">
+              <div>
+                <div class="t"><a href="https://philpapers.org/rec/LAWAOS-2" target="_blank" rel="noopener">Abhinavagupta on Savoring Aesthetic Disgust</a></div>
+                <div class="v"><cite>Philosophers’ Imprint</cite></div>
+              </div>
+              <div class="yr">forthcoming</div>
+              <details>
+                <summary>Abstract</summary>
+                <p>This paper examines an enduring puzzle about enjoying aesthetic disgust as it arises for Abhinavagupta (c. 975–1025 CE). Abhinavagupta claims that all aesthetic emotions (rasas), including the disgust (bībhatsa) rasa, are pleasurable for the sensitive appreciator. Yet he elsewhere characterizes disgust as incompatible with enjoyment of its object. Taken together, these are puzzling claims. I trace the puzzle through a number of Abhinavagupta’s works and those on which he commented in the Pratyabhijñā Śaiva tradition. Along the way, I consider three possible but philosophically unsatisfying answers, each of which provides important pieces of the solution. Putting these pieces together with the Pratyabhijñā defense of impurity’s value and phenomenological analysis of imagination, I reconstruct an Abhinavaguptan solution according to which reflexive appreciation of expanding the limits of human imagination can explain how it is possible to enjoy experiencing aesthetic disgust and why we have reason to seek out this difficult pleasure.</p>
+              </details>
+            </li>
+            <li class="entry">
+              <div>
+                <div class="t"><a href="https://philpapers.org/rec/BURADA-10" target="_blank" rel="noopener">A Dynamic Approach to Compulsive Fantasy: Constraints and Creativity in “Maladaptive Daydreaming”</a></div>
+                <div class="co">with Jennifer Burrell and Kalina Christoff Hadjiilieva</div>
+                <div class="v"><cite>Behavioral Sciences</cite> 15(10): 1333</div>
+              </div>
+              <div class="yr">2025</div>
+              <details>
+                <summary>Abstract</summary>
+                <p>Compulsive fantasy, often called “maladaptive daydreaming,” involves frequent engagement with immersive fantasies that can sometimes interfere with everyday life and cause distress. This paper expands on Christoff and colleagues’ Dynamic Framework of Thought (DFT) to offer a process-based analysis of compulsive fantasy as it relates to other mental phenomena such as daydreaming and creative thought. Drawing on existing literature and posts on online forums by self-identified maladaptive daydreamers, we also propose an account of how compulsive fantasy episodes may unfold in terms of the oscillating dynamics of various constraints on thought, and how these dynamics may be related to a perceived struggle with agency. Our analysis supports the use of “compulsive fantasy” as a more accurate designation than “maladaptive daydreaming” for this phenomenon: compulsive fantasies are not daydreams, because they are more constrained in their mental dynamics. We show that fantasy and daydreaming are not inherently harmful, but can become so when they are accompanied by relatively strong and sustained automatic constraints on thought.</p>
+              </details>
+            </li>
+            <li class="entry">
+              <div>
+                <div class="t"><a href="https://philpapers.org/rec/LAWCLK" target="_blank" rel="noopener">Courageous Love: K. C. Bhattacharyya on the Puzzle of Painful Beauty</a></div>
+                <div class="co">with Dominic McIver Lopes</div>
+                <div class="v"><cite>Journal of the American Philosophical Association</cite> 10(4): 728–743</div>
+              </div>
+              <div class="yr">2024</div>
+              <details>
+                <summary>Abstract</summary>
+                <p>K. C. Bhattacharyya proposed a distinctively modern theory of <em>rasa</em>, or aesthetic emotion, according to which aesthetic emotions are feelings that have other feelings as their intentional objects. This paper articulates how Bhattacharyya’s theory offers a novel solution to the “paradox of sorrow”: a puzzle about how it is both possible and rational to enjoy the kind of negative emotions that are inspired by tragic and sorrowful tales. Bhattacharyya’s solution is distinct from the conversion and compensation views that dominate the existing literature, and it derives its significance from how it ties aesthetic experience to self-awareness.</p>
+              </details>
+            </li>
+            <li class="entry">
+              <div>
+                <div class="t"><a href="https://philosophymindscience.org/index.php/phimisci/article/view/9913" target="_blank" rel="noopener">Daydreaming as Spontaneous Immersive Imagination: A Phenomenological Analysis</a></div>
+                <div class="co">with Evan Thompson</div>
+                <div class="v"><cite>Philosophy and the Mind Sciences</cite> 5(1): 1–34</div>
+              </div>
+              <div class="yr">2024</div>
+              <details>
+                <summary>Abstract</summary>
+                <p>Research on the specific features of daydreaming compared with mind wandering and night-dreaming is a neglected topic in the philosophy of mind and the cognitive neuroscience of spontaneous thought. The extant research either conflates daydreaming with mind-wandering, treats daydreaming and mind-wandering as opposed, or characterizes daydreaming as any and all “imagined events.” These imprecise, dueling definitions pose an obstacle to future research in spontaneous thought. They also fail to illuminate the phenomenal core of daydreaming, namely, its dreamlike qualities. We argue that daydreaming is spontaneous immersive imagination in the waking state. Our investigation distinguishes daydreaming, conceptually and phenomenologically, from mind-wandering and night-dreaming. We also distinguish prototypical experiences of daydreaming from adjacent imaginative activity, including fleeting imagery and deliberate fantasy. We argue that precision about the phenomenal character of daydreaming can guide neurophenomenological investigations, including, for instance, assessing reports of so-called “maladaptive daydreaming.”</p>
+              </details>
+            </li>
+          </ul>
+        </div>
+
+        <div class="block">
+          <h3>Book Chapters</h3>
+          <ul class="entries">
+            <li class="entry">
+              <div>
+                <div class="t">Daydreaming</div>
+                <div class="v">In <cite>The Cambridge Handbook of Thought</cite>, ed. Andre Zamani and Kalina Christoff Hadjiilieva, Cambridge University Press</div>
+              </div>
+              <div class="yr">forthcoming</div>
+            </li>
+            <li class="entry">
+              <div>
+                <div class="t">Negative Rasas and the Paradox of Horror</div>
+                <div class="v">In <cite>Contemporary Debates in Aesthetics and Philosophy of Art</cite>, 2nd ed., ed. Brandon Polite, Elizabeth Scarbrough, and Aaron Meskin, Wiley</div>
+              </div>
+              <div class="yr">in preparation</div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="block">
+          <h3>Reviews</h3>
+          <ul class="entries">
+            <li class="entry">
+              <div>
+                <div class="t">Daniel Raveh and Elise Coquereau-Saouma, eds., <cite>The Making of Contemporary Indian Philosophy: Krishnachandra Bhattacharyya</cite></div>
+                <div class="v"><cite>Journal of Hindu Studies</cite></div>
+              </div>
+              <div class="yr">2026</div>
+            </li>
+          </ul>
+        </div>
+        <div class="block">
+          <h3>Honors &amp; Grants</h3>
+          <ul class="plain">
+            <li><span>Vanier Canada Graduate Scholarship, SSHRC</span><span class="yr">2024</span></li>
+            <li><span>Brian Laetz Graduate Essay Prize, UBC</span><span class="yr">2024</span></li>
+            <li><span>Four-Year Fellowship, UBC</span><span class="yr">2022</span></li>
+            <li><span>President’s Academic Excellence Initiative PhD Award, UBC</span><span class="yr">2022</span></li>
+            <li><span>Henry Hoyns Fellowship, University of Virginia</span><span class="yr">2017</span></li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="talks" aria-labelledby="talks-h">
+        <h2 id="talks-h">Talks</h2>
+        <div class="block">
+          <h3>Upcoming</h3>
+          <ul class="talks">
+            <li class="talk"><span class="when">Nov 21–24, 2026</span><div><div class="what">Macabre Visualization and Emotional Cultivation</div><div class="where">Buddhist Studies Unit, American Academy of Religion Annual Meeting, Denver, CO</div></div></li>
+            <li class="talk"><span class="when">Mar 25, 2027</span><div><div class="what">Aesthetic Shock and Emotional Insight: A. K. Coomaraswamy on Saṁvega<span class="tag">invited</span></div><div class="where">Numata Lecture Series in Buddhist Studies, Yale University, New Haven, CT</div></div></li>
+            <li class="talk"><span class="when">2027</span><div><div class="what">Equal Love for All: Mysore Hiriyanna on Aesthetic Experience and Communal Feeling</div><div class="where">APA Pacific Division Meeting, Portland, OR</div></div></li>
+            <li class="talk"><span class="when">2027</span><div><div class="what">Death Denial and the Fog of Experience<span class="tag">invited</span></div><div class="where">Mortal Feelings Conference, University of Edinburgh, Scotland, UK</div></div></li>
+            <li class="talk"><span class="when">2028</span><div><div class="what">The Place of Beauty in Rasa Theory<span class="tag">invited</span></div><div class="where">Lecture Series: Beauty in the Indian Aesthetic and Devotional Imagination, Jnanapravaha Mumbai Institute, Mumbai, India</div></div></li>
+          </ul>
+        </div>
+        <div class="block">
+          <h3>Recent</h3>
+          <ul class="talks">
+            <li class="talk"><span class="when">2026</span><div><div class="what">From Disinterested Pleasure to Unitive Feeling: Three Neo-Rasa Takes</div><div class="where">Canadian Philosophical Association Annual Meeting, Halifax, NS</div></div></li>
+            <li class="talk"><span class="when">Feb 18–21, 2026</span><div><div class="what">Comments on Jed Forman, <cite>Out of Sight, Into Mind</cite></div><div class="where">Book panel, APA Central Division Meeting, Chicago, IL</div></div></li>
+            <li class="talk"><span class="when">Oct 26, 2025</span><div><div class="what">Deathbed Aesthetics: Disgust and Courageous Love<span class="tag">invited</span></div><div class="where">Asian Philosophy Workshop, Simon Fraser University, Burnaby, BC</div></div></li>
+            <li class="talk"><span class="when">Jul 13, 2025</span><div><div class="what">Aesthetic Emotion in Indian Renaissance Aesthetics</div><div class="where">Joint Session of the Aristotelian Society, Glasgow, Scotland, UK</div></div></li>
+            <li class="talk"><span class="when">Apr 21, 2025</span><div><div class="what">Bees for Enactivists</div><div class="where">Philosophy of Animal Minds and Behavior Association, Santa Barbara, CA</div></div></li>
+            <li class="talk"><span class="when">Apr 16–19, 2025</span><div><div class="what">Neo-Rasa: Expansive Empathy, Not Disinterest<span class="tag">invited</span></div><div class="where">Symposium: South Asian Rasa Theory Meets Contemporary Aesthetics, APA Pacific Division Meeting, San Francisco, CA</div></div></li>
+            <li class="talk"><span class="when">Oct 25, 2024</span><div><div class="what">Abhinavagupta and Two Puzzles About the Disgust Rasa</div><div class="where">American Society for Aesthetics Annual Meeting, Chicago, IL</div></div></li>
+            <li class="talk"><span class="when">May 20, 2024</span><div><div class="what">Rasa and Negative Emotion<span class="tag">invited</span></div><div class="where">Rasa 101, Rasa Fest, University of British Columbia</div></div></li>
+            <li class="talk"><span class="when">2024</span><div><div class="what">Three Varieties of Immersive Imagination: Daydreaming, Fantasy, and Visualization<span class="tag">invited</span></div><div class="where">Graduate Student Research Conference, University of British Columbia</div></div></li>
+            <li class="talk"><span class="when">Nov 18–21, 2023</span><div><div class="what">Towards a Cross-Disciplinary Approach to Poetic Meaning: Rasadhvani and the Heresy of Paraphrase Thesis</div><div class="where">Hindu Philosophy Roundtable, American Academy of Religion Annual Meeting, San Antonio, TX</div></div></li>
+            <li class="talk"><span class="when">2023</span><div><div class="what">Introduction to K. C. Bhattacharyya’s Aesthetics<span class="tag">invited</span></div><div class="where">Graduate Aesthetics Seminar, University of California, Santa Cruz</div></div></li>
+            <li class="talk"><span class="when">Mar 10, 2023</span><div><div class="what">Doing Deathbed Aesthetics with K. C. Bhattacharyya</div><div class="where">American Society for Aesthetics Pacific Division Meeting, Berkeley, CA</div></div></li>
+            <li class="talk"><span class="when">Mar 2, 2023</span><div><div class="what">Daydreaming as Spontaneous Immersive Imagination</div><div class="where">Uehiro Graduate Philosophy Conference, University of Hawaii, Manoa, HI</div></div></li>
+            <li class="talk"><span class="when">Feb 25, 2023</span><div><div class="what">Everyday Aesthetics and Deathbed Experiences</div><div class="where">International Association of Japanese Philosophy session on Yuriko Saito, APA Central Division Meeting, Denver, CO</div></div></li>
+            <li class="talk"><span class="when">Nov 23, 2022</span><div><div class="what">Comments: Towards a Yogācāra-Informed Enactive Approach to Dreams</div><div class="where">Author Meets Critics: Sonam Kachru, <cite>Other Lives: Mind and World in Indian Buddhism</cite>, American Academy of Religion Annual Meeting, Denver, CO</div></div></li>
+            <li class="talk"><span class="when">2022</span><div><div class="what">Comments on James Reich, <cite>To Savor the Meaning: The Theology of Literary Emotions in Medieval Kashmir</cite></div><div class="where">Author Meets Critics, American Society for Aesthetics Annual Meeting, Portland, OR</div></div></li>
+            <li class="talk"><span class="when">Oct 16, 2022</span><div><div class="what">Courageous Love: K. C. Bhattacharyya and the Paradox of Painful Beauty<span class="tag">invited</span></div><div class="where">Workshop on K. C. Bhattacharyya, Smith College, Northampton, MA</div></div></li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="teaching" aria-labelledby="teaching-h">
+        <h2 id="teaching-h">Teaching</h2>
+        <div class="block">
+          <h3>University of British Columbia</h3>
+          <p class="role">As instructor of record</p>
+          <ul class="plain">
+            <li><span>Minds and Machines <span class="note">(PHIL 250)</span></span><span class="yr">2026</span></li>
+            <li><span>Philosophical Wisdom of Early India <span class="note">(PHIL/ASIA 375)</span></span><span class="yr">2024</span></li>
+          </ul>
+          <p class="role">As teaching assistant</p>
+          <ul class="plain">
+            <li><span>Philosophical Wisdom of Early India</span><span class="yr">2024, 2026</span></li>
+            <li><span>Philosophy of Mind</span><span class="yr">2025</span></li>
+            <li><span>Comparative Conceptions of the Self</span><span class="yr">2023, 2025</span></li>
+            <li><span>Existentialism</span><span class="yr">2023</span></li>
+            <li><span>Philosophy in the 17th Century</span><span class="yr">2023</span></li>
+            <li><span>Philosophy of Religion</span><span class="yr">2022</span></li>
+            <li><span>Introduction to Moral Philosophy</span><span class="yr">2022</span></li>
+          </ul>
+          <p class="role">Advising</p>
+          <ul class="plain">
+            <li><span>Honours thesis advisor, Cognitive Systems Program</span><span class="yr">2024, 2025</span></li>
+          </ul>
+        </div>
+        <div class="block">
+          <h3>University of Virginia</h3>
+          <p class="role">As instructor of record</p>
+          <ul class="plain">
+            <li><span>Poetry Writing: Dream, Death, and Myth <span class="note">(ENCW 2300)</span></span><span class="yr">2018–2019</span></li>
+            <li><span>Writing and Critical Inquiry: Harry Potter and the Ethical Imagination <span class="note">(ENWR 1510)</span></span><span class="yr">2019–2020</span></li>
+            <li><span>Writing and Critical Inquiry: Writing about the Environment <span class="note">(ENWR 1510)</span></span><span class="yr">2020</span></li>
+            <li><span>Skills of Scholarship <span class="note">(LASE 3111)</span></span><span class="yr">2019</span></li>
+            <li><span>Honours thesis advisor, Area Program in Poetry Writing</span><span class="yr">2018, 2019</span></li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="poetry" aria-labelledby="poetry-h">
+        <h2 id="poetry-h">Poetry &amp; Prose</h2>
+        <div class="block">
+          <h3>Lyric Essays</h3>
+          <ul class="poems">
+            <li><a href="https://www.palettepoetry.com/2022/02/01/sand-flats-ut/" target="_blank" rel="noopener">“Sand Flats, UT”</a> · <span class="venue">Palette Poetry</span> <span class="note">· 2022 Love &amp; Eros Prize, selected by Kaveh Akbar</span></li>
+            <li><a href="https://theadroitjournal.org/issue-forty-five/issue-forty-five-emily-lawson/" target="_blank" rel="noopener">Djanikian Scholar portfolio</a> · <span class="venue">The Adroit Journal</span> <span class="note">· 2023</span></li>
+            <li><a href="https://theadroitjournal.org/issue-forty-two/emily-lawson/" target="_blank" rel="noopener">“Passenger Car,” “Dining Car,” and “Viewing Car”</a> · <span class="venue">The Adroit Journal</span> <span class="note">· Issue 42</span></li>
+            <li><a href="https://fuguejournal.com/quietcarlawson" target="_blank" rel="noopener">“Quiet Car”</a> · <span class="venue">Fugue</span> <span class="note">· Pushcart Prize nominee</span></li>
+            <li>“Coal Hollow Fire, UT” · <span class="venue">Indiana Review</span> <span class="note">· ½ K Prize winner (print)</span></li>
+            <li><a href="https://aboutplacejournal.org/issues/infinite-country/west-mourning/emily-lawson/" target="_blank" rel="noopener">“Things We Found Out There”</a> · <span class="venue">About Place Journal</span></li>
+          </ul>
+        </div>
+        <div class="block">
+          <h3>Poems</h3>
+          <ul class="poems">
+            <li><a href="https://theadroitjournal.org/issue-forty-three/emily-lawson/" target="_blank" rel="noopener">“Exorcism” and “Past Tense”</a> · <span class="venue">The Adroit Journal</span> <span class="note">· Issue 43</span></li>
+            <li>“Deinotherium Elegy” · <span class="venue">Witness</span> <span class="note">· Witness Award in Poetry (print)</span></li>
+            <li>“Aubade with Deep Sea Footage” · <span class="venue">Three Hearts: An Anthology of Cephalopod Poetry</span> <span class="note">· print</span></li>
+            <li><a href="https://sixthfinch.com/lawson1.html" target="_blank" rel="noopener">“Primate Elegy”</a> · <span class="venue">Sixth Finch</span></li>
+            <li><a href="https://www.frontierpoetry.com/2019/11/15/poetry-emily-lawson/" target="_blank" rel="noopener">“Migration Elegy”</a> · <span class="venue">Frontier Poetry</span></li>
+            <li><a href="https://www.muzzlemagazine.com/emily-lawson.html" target="_blank" rel="noopener">“Metaphysics is a Dead Field”</a> · <span class="venue">Muzzle Magazine</span></li>
+            <li><a href="https://www.thrushpoetryjournal.com/january-2019-emily-lawson.html" target="_blank" rel="noopener">“Darkroom”</a> · <span class="venue">Thrush Poetry Journal</span></li>
+            <li><a href="http://thediagram.com/19_2/lawson.html" target="_blank" rel="noopener">“Between Stations”</a> · <span class="venue">DIAGRAM</span></li>
+          </ul>
+        </div>
+        <div class="block">
+          <h3>Fiction</h3>
+          <ul class="poems">
+            <li><a href="https://booth.butler.edu/2021/04/02/hosting/" target="_blank" rel="noopener">“Hosting”</a> · <span class="venue">BOOTH</span> <span class="note">· Pushcart Prize and Best of the Net nominee</span></li>
+          </ul>
+        </div>
+        <div class="block">
+          <h3>Interviews &amp; Features</h3>
+          <ul class="poems">
+            <li><a href="https://onlypoems.com/interviews/emily-lawson-wasnt-it-wisdom-i-wanted" target="_blank" rel="noopener">“Wasn’t it Wisdom I Wanted?”</a> · <span class="venue">ONLY POEMS</span> <span class="note">· interview by Karan Kapoor, and <a href="https://onlypoems.com/poets/emily-lawson" target="_blank" rel="noopener">Poet of the Week</a></span></li>
+            <li><a href="http://www.philosophersnest.com/episode/0f2f5147/emily-lawson-on-indian-philosophy-death-and-imagination" target="_blank" rel="noopener">“Emily Lawson on Indian Philosophy, Death, and Imagination”</a> · <span class="venue">The Philosopher’s Nest</span> <span class="note">· podcast, S1E9</span></li>
+            <li><a href="https://www.grad.ubc.ca/campus-community/meet-our-students/lawson-emily" target="_blank" rel="noopener">“Meet Our Award Holders”</a> · <span class="venue">UBC Graduate Studies</span></li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="cv" aria-labelledby="cv-h">
+        <h2 id="cv-h">CV &amp; Contact</h2>
+        <div class="cv-card">
+          <a href="Emily_Lawson_CV.pdf" target="_blank" rel="noopener">Curriculum Vitae (PDF)</a>
+          <span>Updated October 2026</span>
+        </div>
+        <div class="contact">
+          <a class="mail" href="mailto:emily.lawson@ubc.ca">emily.lawson@ubc.ca</a>
+          <span>Department of Philosophy, Buchanan Hall, University of British Columbia, Vancouver, BC</span>
+        </div>
+      </section>
+
+      <footer>© 2026 Emily Lawson</footer>
+    </div>
+  </main>
+</div>
+
+<script>
+(function () {
+  var links = Array.prototype.slice.call(document.querySelectorAll('.nav a'));
+  var byId = {};
+  links.forEach(function (a) { byId[a.getAttribute('href').slice(1)] = a; });
+  function mark(id) {
+    links.forEach(function (a) { a.removeAttribute('aria-current'); });
+    if (byId[id]) byId[id].setAttribute('aria-current', 'true');
+  }
+  mark('about');
+  if (!('IntersectionObserver' in window)) return;
+  var obs = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) { if (e.isIntersecting) mark(e.target.id); });
+  }, { rootMargin: '-35% 0px -60% 0px' });
+  Object.keys(byId).forEach(function (id) {
+    var s = document.getElementById(id);
+    if (s) obs.observe(s);
+  });
+})();
+</script>
+</body>
+</html>
