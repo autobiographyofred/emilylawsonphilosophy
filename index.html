@@ -232,11 +232,9 @@ p { margin: 0; }
 .plain .yr { font-variant-numeric: lining-nums tabular-nums; color: var(--slate); font-size: 1rem; white-space: nowrap; }
 .plain .note { color: var(--muted); font-size: 1rem; }
 .role { font-size: 1.02rem; color: var(--muted); font-style: italic; margin: 0.35rem 0 0.15rem; }
-.yearlist { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.55rem; }
-.yearlist li { display: grid; grid-template-columns: 3.25rem minmax(0, 1fr); column-gap: 1rem; align-items: baseline; }
-.yearlist .y { font-variant-numeric: lining-nums tabular-nums; color: var(--slate); font-size: 1rem; }
-.yearlist .venue { font-style: italic; }
-.yearlist .note { color: var(--muted); }
+.poems { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.5rem; }
+.poems .venue { font-style: italic; }
+.poems .note { color: var(--muted); font-size: 1rem; }
 
 .cv-card {
   display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.5rem 1.25rem;
@@ -523,38 +521,54 @@ footer { color: var(--muted); font-size: 0.98rem; border-top: 1px solid var(--ru
       <section id="poetry" aria-labelledby="poetry-h">
         <h2 id="poetry-h">Poetry &amp; Prose</h2>
         <div class="block">
-          <h3>Selected Literary Publications</h3>
-          <ul class="yearlist">
-            <li><span class="y">2026</span><span><span class="venue">ONLY POEMS</span>, <a href="https://onlypoems.com/poems/emily-lawson" target="_blank" rel="noopener">Poet of the Week portfolio</a> <span class="note">(seven poems)</span></span></li>
-            <li><span class="y">2024</span><span><span class="venue">Three Hearts: An Anthology of Cephalopod Poetry</span>, “Aubade with Deep Sea Footage”</span></li>
-            <li><span class="y">2023</span><span><span class="venue">The Adroit Journal</span>, <a href="https://theadroitjournal.org/issue-forty-five/issue-forty-five-emily-lawson/" target="_blank" rel="noopener">Djanikian Award portfolio</a>, Issue 45</span></li>
-            <li><span class="y">2022</span><span><span class="venue">Palette Poetry</span>, <a href="https://www.palettepoetry.com/2022/02/01/sand-flats-ut/" target="_blank" rel="noopener">“Sand Flats, UT”</a> <span class="note">(Love and Eros Prize winner)</span></span></li>
-            <li><span class="y">2022</span><span><span class="venue">The Adroit Journal</span>, <a href="https://theadroitjournal.org/issue-forty-three/emily-lawson/" target="_blank" rel="noopener">“Exorcism” and “Past Tense”</a>, Issue 43</span></li>
-            <li><span class="y">2022</span><span><span class="venue">Witness</span>, “Deinotherium Elegy” <span class="note">(Witness Literary Prize winner)</span></span></li>
-            <li><span class="y">2021</span><span><span class="venue">BOOTH</span>, <a href="https://booth.butler.edu/2021/04/02/hosting/" target="_blank" rel="noopener">“Hosting”</a> <span class="note">(fiction)</span></span></li>
-            <li><span class="y">2020</span><span><span class="venue">Indiana Review</span>, “Coal Hollow Fire, UT” <span class="note">(½ K Prize winner)</span></span></li>
-            <li><span class="y">2020</span><span><span class="venue">Sixth Finch</span>, <a href="https://sixthfinch.com/lawson1.html" target="_blank" rel="noopener">“Primate Elegy”</a></span></li>
-            <li><span class="y">2020</span><span><span class="venue">Waxwing</span>, <a href="https://waxwingmag.org/archive/20/index.php" target="_blank" rel="noopener">“Playroom,” “Panic Room,” and “Map Room”</a></span></li>
-            <li><span class="y">2019</span><span><span class="venue">DIAGRAM</span>, <a href="http://thediagram.com/19_2/lawson.html" target="_blank" rel="noopener">“Between Stations”</a></span></li>
-            <li><span class="y">2019</span><span><span class="venue">Thrush Poetry Journal</span>, <a href="https://www.thrushpoetryjournal.com/january-2019-emily-lawson.html" target="_blank" rel="noopener">“Darkroom”</a></span></li>
+          <h3>Lyric Essays</h3>
+          <ul class="poems">
+            <li><a href="https://www.palettepoetry.com/2022/02/01/sand-flats-ut/" target="_blank" rel="noopener">“Sand Flats, UT”</a> · <span class="venue">Palette Poetry</span> <span class="note">· Love &amp; Eros Prize, selected by Kaveh Akbar; Pushcart Prize nominee</span></li>
+            <li><a href="https://onlypoems.com/poems/emily-lawson" target="_blank" rel="noopener">Poet of the Week portfolio</a> · <span class="venue">ONLY POEMS</span> <span class="note">· seven poems</span></li>
+            <li><a href="https://theadroitjournal.org/issue-forty-five/issue-forty-five-emily-lawson/" target="_blank" rel="noopener">Djanikian Scholar portfolio</a> · <span class="venue">The Adroit Journal</span> <span class="note">· Issue 45</span></li>
+            <li><a href="https://theadroitjournal.org/issue-forty-two/emily-lawson/" target="_blank" rel="noopener">“Passenger Car,” “Dining Car,” and “Viewing Car”</a> · <span class="venue">The Adroit Journal</span> <span class="note">· Issue 42</span></li>
+            <li><a href="https://fuguejournal.com/quietcarlawson" target="_blank" rel="noopener">“Quiet Car”</a> · <span class="venue">Fugue</span> <span class="note">· Pushcart Prize nominee</span></li>
+            <li>“Coal Hollow Fire, UT” · <span class="venue">Indiana Review</span> <span class="note">· <a href="https://indianareview.org/2019/09/2019-1-2-k-prize-winner/" target="_blank" rel="noopener">½ K Prize winner</a> (print)</span></li>
+            <li>“Flaming Gorge, UT” · <span class="venue">Sonoran Review</span> <span class="note">· print</span></li>
+            <li><a href="https://aboutplacejournal.org/issues/infinite-country/west-mourning/emily-lawson/" target="_blank" rel="noopener">“Things We Found Out There”</a> · <span class="venue">About Place Journal</span></li>
           </ul>
         </div>
         <div class="block">
-          <h3>Selected Poetry Awards</h3>
-          <ul class="yearlist">
-            <li><span class="y">2023</span><span>Djanikian Scholarship, <span class="venue">The Adroit Journal</span></span></li>
-            <li><span class="y">2022</span><span>Love and Eros Prize, <span class="venue">Palette Poetry</span></span></li>
-            <li><span class="y">2022</span><span>Witness Literary Award, <span class="venue">Witness</span></span></li>
-            <li><span class="y">2018</span><span>½ K Prize for Nonfiction, <span class="venue">Indiana Review</span></span></li>
+          <h3>Lyric Poems</h3>
+          <ul class="poems">
+            <li><a href="https://onlypoems.com/poems-catalog/aubade-with-deep-sea-footage" target="_blank" rel="noopener">“Aubade with Deep Sea Footage”</a> · <span class="venue">ONLY POEMS</span> <span class="note">· Editor’s Choice; first published in <em>Three Hearts: An Anthology of Cephalopod Poetry</em></span></li>
+            <li><a href="https://theadroitjournal.org/issue-forty-three/emily-lawson/" target="_blank" rel="noopener">“Exorcism” and “Past Tense”</a> · <span class="venue">The Adroit Journal</span> <span class="note">· Issue 43</span></li>
+            <li>“Deinotherium Elegy” · <span class="venue">Witness</span> <span class="note">· Witness Award in Poetry (print)</span></li>
+            <li><a href="https://sixthfinch.com/lawson1.html" target="_blank" rel="noopener">“Primate Elegy”</a> · <span class="venue">Sixth Finch</span></li>
+            <li><a href="https://www.frontierpoetry.com/2019/11/15/poetry-emily-lawson/" target="_blank" rel="noopener">“Migration Elegy”</a> · <span class="venue">Frontier Poetry</span></li>
+            <li><a href="https://www.muzzlemagazine.com/emily-lawson.html" target="_blank" rel="noopener">“Metaphysics is a Dead Field”</a> · <span class="venue">Muzzle Magazine</span></li>
+            <li><a href="http://www.birdfeastmagazine.com/fifteen/lawson/" target="_blank" rel="noopener">“Bedroom,” “Living Room,” and “Laundry Room”</a> · <span class="venue">Birdfeast</span></li>
+            <li><a href="https://wthetrees.earth/poiesis-2-1/three-haunted-rooms-emily-lawson" target="_blank" rel="noopener">“Dining Room,” “Storage Room,” and “Garden Room”</a> · <span class="venue">Poiesis</span></li>
+            <li><a href="https://waxwingmag.org/archive/20/index.php" target="_blank" rel="noopener">“Map Room,” “Playroom,” and “Panic Room”</a> · <span class="venue">Waxwing</span></li>
+            <li><a href="https://www.thrushpoetryjournal.com/january-2019-emily-lawson.html" target="_blank" rel="noopener">“Darkroom”</a> · <span class="venue">Thrush Poetry Journal</span> <span class="note">· Orison Prize nominee; Verse Daily Web Weekly feature</span></li>
+            <li><a href="http://thediagram.com/19_2/lawson.html" target="_blank" rel="noopener">“Between Stations”</a> · <span class="venue">DIAGRAM</span></li>
+          </ul>
+        </div>
+        <div class="block">
+          <h3>Short Fiction</h3>
+          <ul class="poems">
+            <li><a href="https://booth.butler.edu/2021/04/02/hosting/" target="_blank" rel="noopener">“Hosting”</a> · <span class="venue">BOOTH</span> <span class="note">· Pushcart Prize and Best of the Net nominee</span></li>
+          </ul>
+        </div>
+        <div class="block">
+          <h3>Reviews</h3>
+          <ul class="poems">
+            <li><a href="http://readmeridian.org/features/reviews/review-the-popul-vuh-translated-from-the-kiche-by-michael-bazzett/" target="_blank" rel="noopener">“Review: The Popul Vuh, Translated from the K’iche’ by Michael Bazzett”</a> · <span class="venue">Meridian</span></li>
+            <li>“Review: You Think It, I’ll Say It by Curtis Sittenfeld” · <span class="venue">Meridian</span> <span class="note">· no. 41: 114–116 (print)</span></li>
           </ul>
         </div>
         <div class="block">
           <h3>Interviews &amp; Features</h3>
-          <ul class="yearlist">
-            <li><span class="y">2026</span><span><a href="https://onlypoems.com/interviews/emily-lawson-wasnt-it-wisdom-i-wanted" target="_blank" rel="noopener">“Wasn’t it Wisdom I Wanted? In Conversation with Emily Lawson”</a>, interview by Karan Kapoor, <span class="venue">ONLY POEMS</span></span></li>
-            <li><span class="y">2024</span><span><a href="https://www.grad.ubc.ca/campus-community/meet-our-students/lawson-emily" target="_blank" rel="noopener">“Meet Our Award Holders: Emily Lawson”</a>, <span class="venue">UBC Graduate Studies</span></span></li>
-            <li><span class="y">2023</span><span><a href="https://www.palettepoetry.com/2022/02/01/sand-flats-ut/" target="_blank" rel="noopener">“Interview with Emily Lawson”</a>, by A. T. Hincapie, <span class="venue">Palette Poetry</span></span></li>
-            <li><span class="y">2022</span><span><a href="http://www.philosophersnest.com/episode/0f2f5147/emily-lawson-on-indian-philosophy-death-and-imagination" target="_blank" rel="noopener">“Emily Lawson on Indian Philosophy, Death, and Imagination”</a>, <span class="venue">The Philosopher’s Nest</span> podcast, S1E9</span></li>
+          <ul class="poems">
+            <li><a href="https://onlypoems.com/interviews/emily-lawson-wasnt-it-wisdom-i-wanted" target="_blank" rel="noopener">“Wasn’t it Wisdom I Wanted?”</a> · <span class="venue">ONLY POEMS</span> <span class="note">· interview by Karan Kapoor</span></li>
+            <li><a href="https://www.palettepoetry.com/2022/02/01/sand-flats-ut/" target="_blank" rel="noopener">“Interview with Emily Lawson”</a> · <span class="venue">Palette Poetry</span> <span class="note">· by A. T. Hincapie</span></li>
+            <li><a href="http://www.philosophersnest.com/episode/0f2f5147/emily-lawson-on-indian-philosophy-death-and-imagination" target="_blank" rel="noopener">“Emily Lawson on Indian Philosophy, Death, and Imagination”</a> · <span class="venue">The Philosopher’s Nest</span> <span class="note">· podcast, S1E9</span></li>
+            <li><a href="https://www.grad.ubc.ca/campus-community/meet-our-students/lawson-emily" target="_blank" rel="noopener">“Meet Our Award Holders”</a> · <span class="venue">UBC Graduate Studies</span></li>
           </ul>
         </div>
       </section>
